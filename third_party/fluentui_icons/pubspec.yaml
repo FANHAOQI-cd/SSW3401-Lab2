@@ -1,0 +1,23 @@
+name: fluentui_icons
+description: 'The eight tutorial icons from fluentui_icons 1.0.0, adapted for current Flutter.'
+version: 1.0.0+lab2.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: FluentSystemIconsP3
+      fonts:
+        - asset: fonts/FluentSystemIconsP3.ttf
+    - family: FluentSystemIconsP5
+      fonts:
+        - asset: fonts/FluentSystemIconsP5.ttf
+    - family: FluentSystemIconsP6
+      fonts:
+        - asset: fonts/FluentSystemIconsP6.ttf
